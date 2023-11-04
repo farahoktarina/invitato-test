@@ -18,7 +18,7 @@ module.exports = {
         '25vh': '25vh',
         '75vh': '75vh',
         '90vh': '90vh'
-      },
+      }
     },
     letterSpacing: {
       1: '1px',

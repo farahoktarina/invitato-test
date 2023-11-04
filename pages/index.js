@@ -1,5 +1,5 @@
-import DesktopViewLeft from './cover/DesktopViewLeft.jsx';
-import DesktopViewRight from './cover/DesktopViewRight.jsx';
+import DesktopViewLeft from './DesktopViewLeft.jsx';
+import DesktopViewRight from './DesktopViewRight.jsx';
 
 export default function Home() {
   return (

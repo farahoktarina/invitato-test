@@ -16,12 +16,44 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Jost, sans-serif;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #000;
+  background: #fff;
+  font-size: 16px;
+}
+
+.bg-invitato-cover {
+  background-image: url("https://user-images.githubusercontent.com/10141928/147430939-8124ff5c-4df1-495f-a4f9-ee6eb839f03e.jpeg");
+  background-color: rgba(180, 197, 212, 0.35);
+}
+.bg-invitato-welcome {
+  background-image: url("https://user-images.githubusercontent.com/10141928/147430937-dc4f7649-2190-4568-b503-1ead665c1c5c.jpeg");
+  background-color: rgba(180, 197, 212, 0.35);
+}
+
+.bg-invitato-shadow {
+  background-color: rgba(180, 197, 212, 0.35);
+}
+.bg-invitato-footer {
+  background-color: #b4c5d5;
+}
+.bg-invitato-button {
+  background-color: rgb(180 197 212 / 68%);;
+}
+
+#screen-left {
+  color: #67544e;
+  border-right-width: 8px;
+  border-right-style: solid;
+  border-right-color: rgba(0, 0, 0, 0.24);;
+}
+
+.title-couple {
+  font-family: 'Clicker Script', cursive, sans-serif;
 }
